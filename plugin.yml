@@ -1,0 +1,12 @@
+main: x.KenKOfficial.BanIP.Main.Main
+version: 1.0-Beta
+name: xKenBanIP
+author: xKenKOfficial
+description: Plugin autorstwa xKenKOfficial
+website: https://discord.gg/2HDuZrEFTg
+
+commands:
+  banip:
+    aliases: [ban-ip]
+  unbanip:
+    aliases: [pardonip, pardon-ip, unban-ip]

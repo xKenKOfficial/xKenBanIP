@@ -1,0 +1,36 @@
+# Tutaj mozna ustawic prefix pluginu:
+prefix: "&3&lxKenBanIP"
+
+# Tutaj mozna ustawic wiadomosc o braku permisji:
+brak_permisji: "&8>> &cNie masz dostepu do tej komendy!"
+
+# Tutaj mozna ustawic wiadomosc o poprawnym uzyciu komendy /banip:
+banip_uzycie: "&8>> &7Poprawne uzycie&8: &b/banip (IP) (Powod)"
+
+# Tutaj mozna ustawic wiadomosc dla zbanowanego ip, gdy gracz jest online na serwerze:
+banip_kick_online_player: "&8>> &7Twoje IP zostalo zbanowane za&8: &c{POWOD}"
+
+# Tutaj mozna ustawic wiadomosc do administratora, ktory zbanowal ip:
+banip_admin_message: "&8>> &7Zbanowano IP&8: &b{IP}"
+
+# Tutaj mozna ustawic wiadomosc, ktora wysyla sie do wszystkich administratorow z permisja "xkenbanip.admin.banip", jesli inny administrator zbanowal ip:
+banip_administration_message: "&8>> &7Administrator&8: &3{ADMIN} &7zbanowal IP&8: &b{IP}"
+
+# Tutaj mozna ustawic wiadomosc poprawnego uzycia dla komendy /unbanip:
+unbanip_uzycie: "&8>> &7Poprawne uzycie&8: &b/unbanip (IP)"
+
+# Tutaj mozna ustawic wiadomosc o odbanowaniu danego IP:
+unbanip_success: "&8>> &7Pomyslnie odbanowano IP&8: &b{IP}"
+
+# Tutaj mozna ustawic wiadomosc, jesli zle zostalo podane ip, lub gdy nie jest zbanowane:
+unbanip_error: "&8>> &cZle zostalo podane IP!"
+
+# Tutaj mozna ustawic informacje o banie ip:
+ustawienia:
+  banip:
+    - '&4&lTwoje IP zostalo Zbanowane!'
+    - '&7Zbanowal&8: &e{ADMIN}'
+    - '&7Powod&8: &6{POWOD}'
+
+# Tutaj mozna wlaczyc i wylaczyc informacje o pluginie:
+plugin_info: true
